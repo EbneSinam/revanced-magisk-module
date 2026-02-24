@@ -26,7 +26,7 @@ cli-source = "ReVanced/revanced-cli"             # where to fetch cli from. defa
 # options like cli-source can also set per app
 rv-brand = "ReVanced Extended" # rebrand from 'ReVanced' to something different. default: "ReVanced"
 
-patches-version = "v2.160.0" # 'latest', 'dev', or a version number. default: "latest"
+patches-version = "dev" # 'latest', 'dev', or a version number. default: "latest"
 cli-version = "v5.0.0"       # 'latest', 'dev', or a version number. default: "latest"
 
 [Some-App]
@@ -37,7 +37,7 @@ build-mode = "apk"   # 'both', 'apk' or 'module'. default: apk
 # 'auto' option gets the latest possible version supported by all the included patches
 # 'latest' gets the latest stable without checking patches support. 'beta' gets the latest beta/alpha
 # whitespace seperated list of patches to exclude. default: ""
-version = "auto"     # 'auto', 'latest', 'beta' or a version number (e.g. '17.40.41'). default: auto
+version = "latest"     # 'auto', 'latest', 'beta' or a version number (e.g. '17.40.41'). default: auto
 
 # optional args to be passed to cli. can be used to set patch options
 # multiline strings in the config is supported
@@ -57,6 +57,6 @@ exclusive-patches = false                                  # exclude all patches
 apkmirror-dlurl = "https://www.apkmirror.com/apk/inc/app"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 module-prop-name = "some-app-module"                       # module prop name.
-dpi = "360-480dpi"                                         # used to select apk variant from apkmirror. default: nodpi
+dpi = "nodpi"                                         # used to select apk variant from apkmirror. default: nodpi
 arch = "arm64-v8a"                                         # 'arm64-v8a', 'arm-v7a', 'all', 'both'. 'both' downloads both arm64-v8a and arm-v7a. default: all
 ```

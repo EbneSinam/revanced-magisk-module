@@ -1,6 +1,6 @@
 {
   "version": "v8.47.56 (patches dev.1.mpp)",
-  "versionCode": 13,
-  "zipUrl": "https://github.com/EbneSinam/revanced-magisk-module/releases/download/13/music-morphe-module-v8.47.56-arm-v7a.zip",
+  "versionCode": 14,
+  "zipUrl": "https://github.com/EbneSinam/revanced-magisk-module/releases/download/14/music-morphe-module-v8.47.56-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/EbneSinam/revanced-magisk-module/update/build.md"
 }
